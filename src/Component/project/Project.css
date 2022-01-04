@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.containerr {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 0;
+  }
+  
+
+  .containerr .card {
+    position: relative;
+    width: 250px;
+    height: 267px;
+    
+    background: #111111;
+     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    margin: 12px;
+    justify-content: center;
+}
+
+.containerr .card .content {
+    position: relative;
+    
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+.containerr .card:hover .content {
+  transform: translateY(-20px);
+}
+
+.containerr .card .content .imgBx {
+  position: relative;
+
+  width: 193px;
+  height: 127px;
+
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.containerr .card .content .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerr .card .content .contentBx h3 {
+  color: grey;
+  background: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 10px;
+  line-height: 1.1em;
+}
+
+.containerr .card .content .contentBx h3 span {
+  font-size: 12px;
+  color: grey;
+  background: transparent;
+  font-weight: 300;
+  text-transform: initial;
+}
+
+.containerr .card .sci {
+  position: absolute;
+  bottom: 30px;
+  margin-left: -31px;
+  background: transparent;
+  display: flex;
+}
+
+.containerr .card .sci li {
+  list-style: none;
+  margin: 0 26px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.containerr .card:hover .sci li {
+  transform: translateY(23px);
+  opacity: 1;
+}
+
+.containerr .card .sci li a {
+  background: transparent;
+  color: grey;
+  font-size: 20px;
+}
+.containerr .card .sci li a:hover {
+  transition: all .6s linear;
+  color: #FFF;
+
+ 
+}

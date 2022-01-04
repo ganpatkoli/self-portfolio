@@ -1,0 +1,33 @@
+#background {
+  background: url("../images/homescreen\ \(2\).jpg");
+  background-position: center center;
+  background-size: cover;
+  border-radius: 15px;
+  height: 45vh;
+  margin: 4%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+
+  background-attachment: fixed;
+}
+
+.hire_btn {
+  background-color: crimson;
+  outline: none;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  transition: all 0.4s linear;
+}
+.hire_btn:hover {
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  #background {
+    height: 30vh;
+  }
+}

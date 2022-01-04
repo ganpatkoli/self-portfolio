@@ -1,0 +1,110 @@
+
+#navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  /* background: #1119; */
+}
+
+#Ul_cneter {
+  margin: auto;
+}
+
+.nav_black {
+  background-color: #fff;
+}
+
+.nav {
+  position: fixed;
+  top: 12%;
+  height: 50px;
+  z-index: 111111111111;
+}
+
+.nav_black {
+  transition-timing-function: ease-in;
+  overflow: hidden;
+  transition: all 0.5s linear;
+  z-index: 1111111111111111;
+  height: 45px;
+  padding-top: 12px;
+  background-color: #111;
+}
+
+.icons {
+  font-size: 1em;
+  transition: all 0.3s linear;
+  /* border: 0.1rem solid grey; */
+  border-radius: 5px;
+  padding: 4px 5px;
+}
+
+.icons:nth-child(1) {
+  padding: 4px 7px;
+}
+
+.icons:hover {
+  color: #f2f2f2;
+}
+
+body {
+
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(145, 41, 41);
+}
+
+.Navbar_right {
+  display: flex;
+  align-self: flex-end;
+}
+
+#hover_effect {
+  color: #f89494;
+}
+
+#hover_effect:hover {
+  color: white;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+#toggler_size {
+  font-size: 1.6em;
+}
+
+#toggle_Icon {
+  background-image: url("./Toggle.svg");
+}
+
+@media all and (min-width: 360px) and (max-width: 1024px) {
+  #Ul_cneter {
+    display: flex;
+    /* margin-left: 8%; */
+  }
+}
+
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
+}
