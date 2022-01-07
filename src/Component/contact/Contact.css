@@ -36,6 +36,7 @@ textarea {
 
 #margin_top {
   margin-top: 11%;
+  margin-left: 7%;
   font-size: 1.2em;
 }
 
@@ -53,33 +54,25 @@ textarea {
 }
 
 @media (max-width: 1440px) {
-  
   .contact_section {
     display: flex;
     height: 67vh;
     width: 30%;
     border-radius: 15px;
     border: 1px solid grey;
-}
-
-
-
+  }
 }
 @media (min-width: 1440px) {
-  
-   .contact_section {
-        display: flex;
-        height: 39vh;
-        width: 16%;
-        border-radius: 15px;
-        border: 1px solid grey;
-    }
+  .contact_section {
+    display: flex;
+    height: 39vh;
+    width: 16%;
+    border-radius: 15px;
+    border: 1px solid grey;
+  }
 
-
-
-    /* cotnact left */
+  /* cotnact left */
   #margin_top {
-
     font-size: 1.1em;
   }
 
@@ -126,12 +119,11 @@ textarea {
     font-size: 1.1em;
   }
 }
- 
+
 @media all and (max-width: 576px) {
-  
   #margin_top {
     margin-top: 4%;
-margin-left: 12%;
+    margin-left: 12%;
     font-size: 1.1em;
   }
   .contact_section {
@@ -141,12 +133,10 @@ margin-left: 12%;
     margin-left: 32px;
   }
 
-  .center{
-margin-left: 22px;
+  .center {
+    margin-left: 22px;
   }
-
 }
-
 
 @media all and (max-width: 480px) {
   #margin_top {
@@ -161,5 +151,11 @@ margin-left: 22px;
     border-radius: 15px;
     margin-left: 32px;
   }
+}
+@media (min-width: 320px ) and (max-width: 480px) {
+  .contact_section {
+   
+    width: 98%;
+   }
 
-} 
+}

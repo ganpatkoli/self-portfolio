@@ -1,6 +1,7 @@
 import React from "react";
 import "./Project.css";
 import Data from "./Sdata";
+import Bounce from 'react-reveal/Bounce';
 const Project = () => {
   return (
     <>
@@ -15,7 +16,9 @@ const Project = () => {
 
             return (
               <>
-                <div  data-aos="flip-left" className="card mt-3">
+              <Bounce Left>
+
+                <div  className="card mt-3">
                   <div className="content">
                     <div className="imgBx">
                       <img src={x.Image} alt="a" />
@@ -37,6 +40,7 @@ const Project = () => {
                     </li>
                   </ul>
                 </div>
+              </Bounce>
               </>
             );
           })}

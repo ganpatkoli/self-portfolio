@@ -26,8 +26,15 @@
   color: white;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 573px) {
   #background {
-    height: 30vh;
+    height: 40vh;
+  }
+}
+@media (max-width: 320px) {
+  #background {
+    height: 50vh;
+    width: 100%;
+    margin-left: 6%;
   }
 }

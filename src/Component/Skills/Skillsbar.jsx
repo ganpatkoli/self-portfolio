@@ -3,7 +3,6 @@ import "./skillsbar.css";
 const Skillsbar = () => {
   return (
     <>
-    <div data-aos="flip-right" >
 
       <div className="skillBox">
          <div className="skillBar">
@@ -24,7 +23,6 @@ const Skillsbar = () => {
             <span className="skill-CSS"> </span>
           </div>
         </div>
-      </div>
 
       <div className="skillBar">
         <i class="fab fa-js-square fa-2x"></i>
@@ -64,7 +62,8 @@ const Skillsbar = () => {
           <span className="skill-GG"> </span>
         </div>
       </div>
-    </div>
+      </div>
+    {/* </div> */}
     </>
   );
 };

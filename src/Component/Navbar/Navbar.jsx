@@ -4,11 +4,18 @@ import "./Nav.css";
 const Navbar = () => {
   return (
     <>
-      <div className="container-fluid">
+
+
+
+
+
+
+
         <nav
-          className="navbar fixed-top navbar-expand-lg fixed-top"
+          className="navbar  fixed-top navbar-expand-md   fixed-top"
           id="navbar"
         >
+<div className="container-fluid">
           <a
             href="#home"
             className="navbar-brand ms-5"
@@ -26,11 +33,11 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" id="toggle_Icon"></span>
+            <span className="navbar-toggler-icon " id="toggle_Icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul
-              className="navbar-nav  colorblack  lg-align-item-center"
+              className="navbar-nav lg-align-item-center"
               id="Ul_cneter"
             >
               <li className="nav-item ">
@@ -45,37 +52,37 @@ const Navbar = () => {
                 </a>
               </li>
 
-              <li className="nav-item active">
+              <li className="nav-item ">
                 <a className="nav-link" id="hover_effect" href="#about">
                   About
                 </a>
               </li>
 
-              <li className="nav-item active">
+              <li className="nav-item ">
                 <a className="nav-link" id="hover_effect" href="#project">
                   Project
                 </a>
               </li>
 
-              <li className="nav-item active">
+              <li className="nav-item ">
                 <a className="nav-link" id="hover_effect" href="#resume">
                   Resume
                 </a>
               </li>
-              <li className="nav-item active">
+              <li className="nav-item ">
                 <a className="nav-link" id="hover_effect" href="#contact">
                   Contact
                 </a>
               </li>
             </ul>
-            <div className="social_icons mx-5">
+            <div className="social_icons me-5">
               <i className="fab fa-facebook-f mx-2 icons"></i>
               <i className="fab fa-linkedin-in mx-2 icons"></i>
               <i className="fab fa-instagram  mx-2 icons"></i>
             </div>
           </div>
-        </nav>
       </div>
+        </nav>
     </>
   );
 };

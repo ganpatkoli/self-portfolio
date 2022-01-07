@@ -1,4 +1,6 @@
-
+*{
+  /* border: 1px solid red; */
+}
 
 .skillBar {
   width: 100%;
@@ -229,7 +231,7 @@
     font-size: 310%;
   }
   .skillBar {
-    width: 80%;
+    width: 76%;
     height: 35px;
     margin: 10px auto;
   }
@@ -245,6 +247,48 @@
     margin: 35px;
     position: relative;
     top: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .ion-social-html5-outline {
+    font-size: 310%;
+  }
+  .ion-social-css3-outline {
+    font-size: 310%;
+  }
+  .ion-social-html5-outline {
+    font-size: 300%;
+  }
+  .ion-social-javascript {
+    font-size: 300%;
+  }
+  .ion-social-angular-outline {
+    font-size: 300%;
+  }
+  .ion-social-nodejs {
+    font-size: 300%;
+  }
+  .ion-social-wordpress-outline {
+    font-size: 310%;
+  }
+  .skillBar {
+    width: 70%;
+    height: 25px;
+    margin: 10px 45px;
+  }
+  .skillArea {
+    margin-left: 10px;
+    position: relative;
+    left: 30px;
+    /* top: 5px; */
+    padding: 4px;
+  }
+  .skillName {
+    display: none;
+    font-size: 22px;
+    margin: 35px;
+    position: relative;
+    top: 3px;
   }
 }
 

@@ -1,56 +1,25 @@
+
 body {
   background: "transparent";
 }
 #skills_main {
-  background: #000;
-  border-radius: 19px;
-  margin-left: 1%;
+  display: flex;
+justify-content: space-evenly;
 }
 
 .Skill_left{
   margin-top: 5%;
 }
 
-@media (max-width: 1440px) {
-
-}
-@media (min-width: 1440px) {
-  
 
 
- }
- 
-
-
-@media all and (min-width: 1024px) {
-
-
-  #skills_main{
-    margin-top: 5.6em;
-  }
-
-
- }
-
-
-@media all and (min-width: 768px) {
+@media all and (max-width: 768px) {
 
 
   .Skill_left{
-    margin-top: 3%;
+    margin-top: 1%;
   }
 
 
  }
-
-
-
-
-
-
-@media all and (min-width: 768px) and (max-width: 1024px) { }
- 
-@media all and (min-width: 480px) and (max-width: 768px) { }
- 
-@media all and (max-width: 480px) { }
 

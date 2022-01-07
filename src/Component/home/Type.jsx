@@ -3,7 +3,7 @@ import "./home.css"
 
 function Type() {
   return (
-    <div className="typeText text-center">
+    <div className="typeText text-center  visiblity">
     <Typewriter
     
     options={{
