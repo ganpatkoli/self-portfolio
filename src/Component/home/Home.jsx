@@ -41,7 +41,7 @@ const Home = () => {
                   style={{ color: "crimson", fontWeight: "600" }}
                 >
                 
-                  Ganpat Kumar Koli
+                  Ganpat  Koli
                 </h1>
 
                 <p className="text-center p-2">

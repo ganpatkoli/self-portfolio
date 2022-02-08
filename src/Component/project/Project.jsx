@@ -12,31 +12,33 @@ const Project = () => {
         </h1>
         </div>
         <div  className="containerr">
-          {Data.map((x) => {
-
-            return (
+          {Data.map((x , id , a) => {
+const  {Image , AltLink , Name ,Title ,  Github_Link , Demo_Link } = x
+return (
               <>
-              <Bounce Left>
+             <Bounce Left>
+
+
 
                 <div  className="card mt-3">
                   <div className="content">
                     <div className="imgBx">
-                      <img src={x.Image} alt="a" />
+                      <img src={Image} alt={AltLink} rel="noreferrer"  target="_black" />
                     </div>
                     <div className="contentBx">
                       <h3 className="name">
-                        {x.Name}
+                        {Name}
                         <br />
-                        <span></span>
+                        <span className="h6">{Title}</span>
                       </h3>
                     </div>
                   </div>
                   <ul className="sci ">
                     <li className="github">
-                      <a className="text-decoration-none github" href={x.Github_Link } rel='_blank'>github</a>
+                      <a className="text-decoration-none github" href={Github_Link } rel='noreferrer ' target="_blank">github</a>
                     </li>
                     <li className="github">
-                      <a className="text-decoration-none demo" href={x.Demo_Link} rel='_blank'>Demo</a>
+                      <a className="text-decoration-none demo" href={Demo_Link} rel='noreferrer'  target="_blank">Demo</a>
                     </li>
                   </ul>
                 </div>
@@ -51,3 +53,12 @@ const Project = () => {
   );
 };
 export default Project;
+
+
+
+
+
+
+
+
+

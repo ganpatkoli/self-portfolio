@@ -1,10 +1,8 @@
 import React from "react";
 import "./Contact.css";
-import Social from "../Footer/Social";
 import Fade from 'react-reveal/Fade';
 const Contact = () => {
-  return (
-    <>
+  return  <>
       <div className="container-fluid " id="contact">
         <div className="row  my-5">
           <h1 className="col-12  text-center"> For Any Query and Suggetion </h1>
@@ -65,10 +63,8 @@ const Contact = () => {
                   </Fade>
           </div>
         </div>
-      </div>
-          <Social />
+        </div>
     </>
-  );
 };
 
 export default Contact;

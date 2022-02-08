@@ -4,18 +4,11 @@ import "./Nav.css";
 const Navbar = () => {
   return (
     <>
-
-
-
-
-
-
-
-        <nav
-          className="navbar  fixed-top navbar-expand-md   fixed-top"
-          id="navbar"
-        >
-<div className="container-fluid">
+      <nav
+        className="navbar  fixed-top navbar-expand-md   fixed-top"
+        id="navbar"
+      >
+        <div className="container-fluid">
           <a
             href="#home"
             className="navbar-brand ms-5"
@@ -36,10 +29,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon " id="toggle_Icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul
-              className="navbar-nav lg-align-item-center"
-              id="Ul_cneter"
-            >
+            <ul className="navbar-nav lg-align-item-center" id="Ul_cneter">
               <li className="nav-item ">
                 <a
                   to="/"
@@ -76,13 +66,19 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="social_icons me-5">
-              <i className="fab fa-facebook-f mx-2 icons"></i>
-              <i className="fab fa-linkedin-in mx-2 icons"></i>
-              <i className="fab fa-instagram  mx-2 icons"></i>
+              <a href="https://www.facebook.com/Gannu980515" target="_blank ">
+                <i className="fab fa-facebook-f mx-2 icons"> </i>
+              </a>
+              <a href="https://linkedin.com/in/ganpatkoli"  target="_blank ">
+                <i className="fab fa-linkedin-in mx-2 icons"> </i>
+              </a>
+              <a href="https://www.instagram.com/ganpat__koli/"  target="_blank ">
+                <i className="fab fa-instagram  mx-2 icons"> </i>
+              </a>
             </div>
           </div>
-      </div>
-        </nav>
+        </div>
+      </nav>
     </>
   );
 };

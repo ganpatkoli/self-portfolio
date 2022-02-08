@@ -49,7 +49,7 @@ const About = () => {
   <Fade right>
 
             <p className=" mt-2  " style={{ fontSize: "1.3em", opacity: ".9" , textAlign: "center" }}>
-              Hello Guys😎 I Am "Ganpat Kumar Koli" I Like To Play With Code And
+              Hello Guys😎 I Am "Ganpat  Koli" I Like To Play With Code And
               Designing Also I Complete My Greduation Before 2 Years, But I Dont
               Know What I Do As An Carriar, After 2 Years I Found Of My Intrest
               Web Technology.. So I Desided To Learn Web Design And Development,

@@ -7,7 +7,7 @@ import Resume from "./Component/Resume/Experience";
 import Contact from "./Component/contact/Contact";
 import Skills from "./Component/Skills/Skills";
 import Freelacner from "./Component/Freelaneer/Freelancer.jsx";
-
+import Social from "./Component/Footer/Social"
 
 const App = () => {
   return (
@@ -19,7 +19,8 @@ const App = () => {
       <Resume />
       <Project />
       <Freelacner />
-      <Contact />
+      {/* <Contact /> */}
+      <Social />
     </>
   );
 };
