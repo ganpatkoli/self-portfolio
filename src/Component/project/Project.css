@@ -1,38 +1,36 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 
 .containerr {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0px 0;
-  }
-  
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px 0;
+}
 
-  .containerr .card {
-    position: relative;
-    width: 250px;
-    height: 267px;
-    
-    background: #111111;
-     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    backdrop-filter: blur(10px);
-    margin: 12px;
-    justify-content: center;
+.containerr .card {
+  position: relative;
+  width: 250px;
+  height: 267px;
+
+  background: #111111;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  margin: 12px;
+  justify-content: center;
 }
 
 .containerr .card .content {
-    position: relative;
-    
+  position: relative;
+
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -109,8 +107,6 @@
   font-size: 20px;
 }
 .containerr .card .sci li a:hover {
-  transition: all .6s linear;
-  color: #FFF;
-
- 
+  transition: all 0.6s linear;
+  color: #fff;
 }

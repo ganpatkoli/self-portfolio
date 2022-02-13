@@ -1,25 +1,20 @@
 
 body {
-  background: "transparent";
+  overflow-x: hidden;
+
+    background: "transparent";
 }
 #skills_main {
   display: flex;
-justify-content: space-evenly;
+  justify-content: space-evenly;
 }
 
-.Skill_left{
+.Skill_left {
   margin-top: 5%;
 }
 
-
-
 @media all and (max-width: 768px) {
-
-
-  .Skill_left{
+  .Skill_left {
     margin-top: 1%;
   }
-
-
- }
-
+}

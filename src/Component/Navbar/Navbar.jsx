@@ -5,16 +5,17 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className="navbar  fixed-top navbar-expand-md   fixed-top"
+        className="navbar  fixed-top navbar-expand-md scrolled  fixed-top"
         id="navbar"
       >
         <div className="container-fluid">
           <a
             href="#home"
-            className="navbar-brand ms-5"
+            className=" text-secondary navbar-brand ms-4 fs-4 "
             style={{ color: "#f89494" }}
+            id="logo"
           >
-            GanpaT Koli
+            GanpatKoli
           </a>
 
           <button
@@ -60,7 +61,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item ">
-                <a className="nav-link" id="hover_effect" href="#contact">
+                <a className="nav-link" id="hover_effect" href="#footer">
                   Contact
                 </a>
               </li>

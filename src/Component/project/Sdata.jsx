@@ -2,7 +2,7 @@ import img1 from "./Imges/netflix.png"
 import img2 from "./Imges/recipe app.png"
 import img3 from "./Imges/website.png"
 import img4 from "./Imges/selft portfolio.png"
-import img5 from "./Imges/project weater App.png"
+import img5 from "./Imges/project weater.png"
 
 const Data = [
     {
@@ -43,7 +43,7 @@ const Data = [
         Image:img1,
         Name:"NetFlix-clone ",
         Title: " Html/Css/Reactjs",
-        Github_Link:" ",
+        Github_Link:"https://github.com/ganpat1/neflix-clone ",
         Demo_Link:"",
         AlitLink:'Netflix-Clone',
         },

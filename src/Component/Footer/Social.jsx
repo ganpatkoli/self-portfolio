@@ -51,7 +51,7 @@ const Social = () => {
                 className="text-decoration-none mx-2   crafted "
                 href="https://www.instagram.com/ganpat__koli/" target='_blank' rel="noreferrer"
               >
-                Ganpat-Koli
+                Ganpat-Koli♥
               </a>
             </div>
           </div>

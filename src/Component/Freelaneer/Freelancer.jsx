@@ -1,6 +1,6 @@
 import React from "react";
 import "./Freenacer.css";
-import resume from "./CV_2021-11-08-035917.pdf"
+import resume from "./Ganpat_Koli_Resume.pdf"
 import Bounce from 'react-reveal/Bounce';
 const Freelacer = () => {
   return (
@@ -12,12 +12,13 @@ const Freelacer = () => {
 
             <div className="text-center py-5" style={{  backgroundColor:'transparent' }}>
                 <h2 style={{ color: "", backgroundColor:'transparent' }}>
-                  I Am Available For Freelancer Projects.
+                I Am Available For Freelancer Projects.
                 </h2>
                   
                 <p className="my-3" style={{ background:'transparent' }}>
-                  Obviously I'm a Web Designer. Experienced with all stages of
-                  the development cycle for dynamic web projects.
+            
+Obviously  I'm a Web Designer. Experienced with all stages of the development cycle for dynamic web projects.
+
                 </p>
               <div className="btn mt-1">
                 <a href="https://linkedin.com/in/ganpatkoli" target='_blanck'  className="hire_btn">Hire-Me </a>

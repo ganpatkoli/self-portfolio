@@ -1,7 +1,7 @@
 import React from "react";
 import "./R.css";
 import Roll from "react-reveal/Roll";
-import Fade from "react-reveal/Fade";
+import HeadShake from 'react-reveal/HeadShake';
 const Experience = () => {
   return (
     <section className="resume-main-wrapper  container-fluid">
@@ -9,7 +9,7 @@ const Experience = () => {
         <div className="row ">
           <h3 className="text-center my-5">Resume</h3>
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-            <Fade left>
+            <HeadShake left>
               <div className="resume">
                 <div className="my-5">
                   <h2 className="text-center"> Education</h2>
@@ -22,7 +22,7 @@ const Experience = () => {
                     <Roll left>
                       <div className="timeline-content  hover">
                         <h3>Seeta Devi Collage</h3>
-                        <h5>Bachelor of Computer Application</h5>
+                        <h5>Bachelors of Computer Applications</h5>
                         <h6>74.70%</h6>
                         <h6>2016 - 19</h6>
                       </div>
@@ -58,12 +58,12 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-            </Fade>
+            </HeadShake>
           </div>
           {/* RIGHT COLOMN */}
 
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6  ">
-            <Fade right>
+            <HeadShake right>
               <div className="resume  ">
                 <div className=" my-5 ">
                   <h2 className="text-center">Learning</h2>
@@ -90,7 +90,7 @@ const Experience = () => {
                           <h6>2021- present </h6>
                           <h5>Youtube /Official Document </h5>
                         </div>
-                      </Roll>
+                      </Roll>``
                     </div>
                   </div>
 
@@ -108,7 +108,7 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-            </Fade>
+            </HeadShake>
           </div>
         </div>
       </div>

@@ -5,6 +5,10 @@
   text-align: center;
   flex-direction: column;
 }
+body{
+  background-color: #000;
+overflow-x: hidden;
+}
 
 .profile {
   width: 50% !important;
